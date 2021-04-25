@@ -84,8 +84,11 @@
   background-image: url('https://serv.live/images/jellyfin.png') !important;
 }
 span.material-icons.cast {
-    display: none;
+  display: none;
 }
 body, h1, h2, h3, h4 {
-    font-family: 'Courier New', monospace;
+  font-family: 'Courier New', monospace;
+}
+.mainDrawer {
+  backdrop-filter: blur(20px) saturate(4.5) contrast(0.5);
 }
