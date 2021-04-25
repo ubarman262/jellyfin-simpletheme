@@ -94,3 +94,6 @@ body, h1, h2, h3, h4 {
   backdrop-filter: blur(20px) saturate(4.5) contrast(0.5);
   -webkit-backdrop-filter: blur(20px) saturate(4.5) contrast(0.5);
 }
+.padded-right-withalphapicker {
+    padding-right: 2.5%;
+}
