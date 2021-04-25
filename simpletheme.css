@@ -90,5 +90,6 @@ body, h1, h2, h3, h4 {
   font-family: 'Courier New', monospace;
 }
 .mainDrawer {
+  width: 252px !important;
   backdrop-filter: blur(20px) saturate(4.5) contrast(0.5);
 }
