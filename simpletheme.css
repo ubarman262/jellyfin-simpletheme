@@ -72,6 +72,9 @@
 #indexPage {
   margin-top: 70px;
 }
+.emby-tabs-slider {
+    display: none;
+}
 .backdropImage {
   filter: blur(15px) saturate(150%) brightness(20%);
 }
