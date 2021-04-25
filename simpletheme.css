@@ -81,10 +81,5 @@
   filter: blur(15px) saturate(150%) brightness(20%);
 }
 .pageTitleWithDefaultLogo {
-  margin-left: 50%;
   background-image: url('https://serv.live/images/jellyfin.png') !important;
-  height: 35px;
-}
-.pageTitle {
-    margin-bottom: 0px;
 }
