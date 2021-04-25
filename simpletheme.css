@@ -84,5 +84,5 @@
   background-image: url('https://serv.live/images/jellyfin.png') !important;
 }
 .material-icons cast {
-  display: none;
+  display: none !important;
 }
