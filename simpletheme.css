@@ -81,5 +81,6 @@
   filter: blur(15px) saturate(150%) brightness(20%);
 }
 .pageTitleWithDefaultLogo {
-    background-image: url('https://features.jellyfin.org/images/logos/a7Lx9nYDzWuDR94Az8Yum7neWMvNMndkm9qr4QVtmjaMrOHDLisS5K7LJctTRzK9-icon-transparent.png?size=200') !important;
+  margin-left: 50%;
+  background-image: url('https://features.jellyfin.org/images/logos/a7Lx9nYDzWuDR94Az8Yum7neWMvNMndkm9qr4QVtmjaMrOHDLisS5K7LJctTRzK9-icon-transparent.png?size=200') !important;
 }
