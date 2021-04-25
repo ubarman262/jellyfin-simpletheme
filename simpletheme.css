@@ -78,3 +78,7 @@
 .backdropImage {
   filter: blur(15px) saturate(150%) brightness(20%);
 }
+
+.pageTitle {
+    margin-left: 50%;
+}
