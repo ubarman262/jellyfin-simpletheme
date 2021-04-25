@@ -71,7 +71,7 @@
     margin-top: -2em !important;
 }
 }
-#indexPage {
+#indexPage, #moviesPage, #tvRecommendedPage, #encodingSettingsPage, #mediaLibraryPage, #dlnaSettingsPage, #pluginsPage, #musicRecommendedPage {
   margin-top: 60px;
 }
 .emby-tabs-slider {
