@@ -71,9 +71,9 @@
     margin-top: -2em !important;
 }
 }
-#indexPage, #moviesPage, #tvRecommendedPage, #encodingSettingsPage, #mediaLibraryPage, #dlnaSettingsPage, #pluginsPage, #musicRecommendedPage {
+/* #indexPage, #moviesPage, #tvRecommendedPage, #encodingSettingsPage, #mediaLibraryPage, #dlnaSettingsPage, #pluginsPage, #musicRecommendedPage {
   margin-top: 60px;
-}
+} */
 .emby-tabs-slider {
     display: none;
 }
