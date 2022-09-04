@@ -1,106 +1,155 @@
-/* Hosted on raw.githack.com */
-
 @import url('https://ctalvio.github.io/Monochromic/default_style.css');
 @import url('https://ctalvio.github.io/Monochromic/improve-performance_style.css');
 @import url('https://ctalvio.github.io/Monochromic/bottom-progress_style.css');
-@import url('https://ctalvio.github.io/Monochromic/improve-performance_style.css');
-@import url('https://ctalvio.github.io/Monochromic/bottom-progress_style.css');
-@import url('https://ctalvio.github.io/Monochromic/customcolor_style.css');:root {--accent: #ffffff;}
-:root {--rounding: 5px;}
-.headerSyncButton { display: none; }
+@import url('https://ctalvio.github.io/Monochromic/customcolor_style.css');
+@import url("https://cdn.jsdelivr.net/npm/jellyskin@latest/dist/logo.css");
+@import url('https://ctalvio.github.io/Kaleidochromic/alternate-itempage_style.css');
+
+:root {
+    --accent: #ffffff;
+}
+
+:root {
+    --rounding: 5px;
+}
+
+.headerSyncButton {
+    display: none;
+}
+
 .progress {
-  background: white !important;
-  border-radius: var(--rounding);
-  border: 1px solid rgba(255, 255, 255);
+    background: white !important;
+    border-radius: var(--rounding);
+    border: 1px solid rgba(255, 255, 255);
 }
+
 .progress::-webkit-progress-bar {
-  background: white !important;
-  border-radius: var(--rounding);
-  border: 0px solid rgba(255, 255, 255);
+    background: white !important;
+    border-radius: var(--rounding);
+    border: 0px solid rgba(255, 255, 255);
 }
+
 .progress::-moz-progress-bar {
-  background-color: rgba(255,255,255);
-  border-radius: var(--rounding);
+    background-color: rgba(255, 255, 255);
+    border-radius: var(--rounding);
 }
+
 .progress::-webkit-progress-value {
-  background-color: rgba(255,255,255);
-  border-radius: var(--rounding);
+    background-color: rgba(255, 255, 255);
+    border-radius: var(--rounding);
 }
+
 .ratingbutton-icon-withrating {
-  color: #c33 !important;
+    color: #c33 !important;
 }
 
 .playstatebutton-icon-played {
-  color: #4169e1 !important;
+    color: #4169e1 !important;
 }
 
 .itemProgressBar {
     height: 5px;
-    background: rgba(255,255,255,0.5);
+    background: rgba(255, 255, 255, 0.5);
 }
 
-.playbackProgress>div, .itemProgressBarForeground {
-    background-color: rgb(255,255,255) !important;
+.playbackProgress>div,
+.itemProgressBarForeground {
+    background-color: rgb(255, 255, 255) !important;
 }
 
 .transcodingProgress>div {
-    background-color: rgb(255,255,255) !important;
+    background-color: rgb(255, 255, 255) !important;
 }
 
 .cardOverlayButtonIcon {
-    width: 1em!important;
+    width: 1em !important;
 }
 
 .countIndicator {
     border-radius: 20px !important;
 }
+
 .playedIndicator {
     border-radius: 20px !important;
 }
 
 @media (max-width: 70em) {
-.cardOverlayButtonIcon {
-    background-color: rgb(0 0 0 / 0%) !important;
+    .cardOverlayButtonIcon {
+        background-color: rgb(0 0 0 / 0%) !important;
+    }
+
+    .cardOverlayButton {
+        padding: 1px;
+    }
 }
-.cardOverlayButton {
-    padding: 1px;
-}
-}
+
 @media (max-width: 32em) {
-.detailPageWrapperContainer {
-    margin-top: -2em !important;
+    .detailPageWrapperContainer {
+        margin-top: -2em !important;
+    }
 }
-}
+
 /* #indexPage, #moviesPage, #tvRecommendedPage, #encodingSettingsPage, #mediaLibraryPage, #dlnaSettingsPage, #pluginsPage, #musicRecommendedPage {
   margin-top: 60px;
 } */
 .emby-tabs-slider {
     display: none;
 }
+
 .backdropImage {
-  filter: blur(15px) saturate(150%) brightness(20%);
+    filter: blur(15px) saturate(150%) brightness(20%);
 }
+
 .pageTitleWithDefaultLogo {
-  background-image: url('https://serv.live/images/jellyfin.png') !important;
+    background-image: url('https://serv.live/images/jellyfin.png') !important;
 }
+
 span.material-icons.cast {
-  display: none;
+    display: none;
 }
-body, h1, h2, h3, h4 {
-  font-family: Helvetica, sans-serif;
+
+body,
+h1,
+h2,
+h3,
+h4 {
+    font-family: Helvetica, sans-serif;
 }
+
 .mainDrawer {
-  width: 252px !important;
-  backdrop-filter: blur(20px) saturate(4.5) contrast(0.5);
-  -webkit-backdrop-filter: blur(20px) saturate(4.5) contrast(0.5);
+    width: 252px !important;
+    backdrop-filter: blur(20px) saturate(4.5) contrast(0.5);
+    -webkit-backdrop-filter: blur(20px) saturate(4.5) contrast(0.5);
 }
+
 .padded-right-withalphapicker {
     padding-right: 2.5%;
 }
 
 .cardOverlayFab-primary {
-border-radius: 50px !important;
+    border-radius: 50px !important;
 }
+
 .cardOverlayFab-primary:hover {
-border-radius: 50px !important;
+    border-radius: 50px !important;
+}
+
+@media (max-width: 32em) {
+    .detailPageWrapperContainer {
+        margin-top: 10em !important;
+    }
+}
+
+.layout-mobile #itemDetailPage .detailLogo:not(.hide) {
+    display: block !important;
+    margin-top: -5vh !important;
+    position: absolute;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 12vh;
+    position: absolute;
+    right: 10vw;
+    top: 10vh;
+    width: 50vw;
 }
